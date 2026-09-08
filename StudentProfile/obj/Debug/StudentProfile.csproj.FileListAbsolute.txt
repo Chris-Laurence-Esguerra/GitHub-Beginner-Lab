@@ -1,0 +1,10 @@
+C:\Users\user\source\repos\GitHub-Beginner-Lab\StudentProfile\bin\Debug\StudentProfile.exe.config
+C:\Users\user\source\repos\GitHub-Beginner-Lab\StudentProfile\bin\Debug\StudentProfile.exe
+C:\Users\user\source\repos\GitHub-Beginner-Lab\StudentProfile\bin\Debug\StudentProfile.pdb
+C:\Users\user\source\repos\GitHub-Beginner-Lab\StudentProfile\obj\Debug\StudentProfile.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\GitHub-Beginner-Lab\StudentProfile\obj\Debug\StudentProfile.Form1.resources
+C:\Users\user\source\repos\GitHub-Beginner-Lab\StudentProfile\obj\Debug\StudentProfile.Properties.Resources.resources
+C:\Users\user\source\repos\GitHub-Beginner-Lab\StudentProfile\obj\Debug\StudentProfile.csproj.GenerateResource.cache
+C:\Users\user\source\repos\GitHub-Beginner-Lab\StudentProfile\obj\Debug\StudentProfile.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\GitHub-Beginner-Lab\StudentProfile\obj\Debug\StudentProfile.exe
+C:\Users\user\source\repos\GitHub-Beginner-Lab\StudentProfile\obj\Debug\StudentProfile.pdb

@@ -16,5 +16,10 @@ namespace StudentProfile
         {
             InitializeComponent();
         }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Contact number updated successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }

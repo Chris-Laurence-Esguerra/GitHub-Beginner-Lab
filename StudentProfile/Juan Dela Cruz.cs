@@ -19,7 +19,12 @@ namespace StudentProfile
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Contact number updated successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Student name updated successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Student Year Level: 3!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

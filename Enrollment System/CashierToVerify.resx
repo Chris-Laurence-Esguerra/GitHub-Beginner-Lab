@@ -117,56 +117,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="bell-icon-decoration-icon-ring-icon-logo-symbol-png-clipart" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bell-icon-decoration-icon-ring-icon-logo-symbol-png-clipart.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IMG_1438" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IMG_1438.JPEG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="image (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\image (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IMG_1427" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IMG_1427.JPEG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="image (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\image (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="7534543bc3f4e2a782d1bf2d6bb8101d" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\7534543bc3f4e2a782d1bf2d6bb8101d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IMG_1428" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IMG_1428.JPEG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IMG_1431" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IMG_1431.JPEG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IMG_1426" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IMG_1426.JPEG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IMG_1429" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IMG_1429.JPEG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bell-icon-decoration-icon-ring-icon-logo-symbol-png-clipart-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bell-icon-decoration-icon-ring-icon-logo-symbol-png-clipart-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IMG_1432" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IMG_1432.JPEG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="image (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\image (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IMG_1433" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IMG_1433.JPEG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IMG_1435" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IMG_1435.JPEG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IMG_1434" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IMG_1434.JPEG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IMG_1454" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IMG_1454.JPEG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Method                                Receipts                            Amount
+____________________________________________________
+Cash                                           12                            ₱41, 000.00
+____________________________________________________
+Gcash                                           6                            ₱30, 500.00
+____________________________________________________
+Bank Transfer                              3                            ₱15, 000.00
+____________________________________________________
+Card                                              0                            ₱0.00
+____________________________________________________
+Total                                           21                            ₱86, 500.00
+</value>
   </data>
 </root>

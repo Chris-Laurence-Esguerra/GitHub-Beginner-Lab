@@ -33,7 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,6 +48,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminEnrollment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminEnrollment.Designer.cs">
+      <DependentUpon>AdminEnrollment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CashierToVerify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CashierToVerify.Designer.cs">
+      <DependentUpon>CashierToVerify.cs</DependentUpon>
+    </Compile>
     <Compile Include="CreateNewPasswordForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +86,12 @@
     <Compile Include="StudentEnrollmentDashboard.Designer.cs">
       <DependentUpon>StudentEnrollmentDashboard.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AdminEnrollment.resx">
+      <DependentUpon>AdminEnrollment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashierToVerify.resx">
+      <DependentUpon>CashierToVerify.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CreateNewPasswordForm.resx">
       <DependentUpon>CreateNewPasswordForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -115,6 +135,48 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\image %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_1426.JPEG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_1427.JPEG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_1428.JPEG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_1431.JPEG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_1429.JPEG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_1432.JPEG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_1433.JPEG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_1434.JPEG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7534543bc3f4e2a782d1bf2d6bb8101d.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_1435.JPEG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_1438.JPEG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bell-icon-decoration-icon-ring-icon-logo-symbol-png-clipart.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bell-icon-decoration-icon-ring-icon-logo-symbol-png-clipart-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_1454.JPEG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -626,6 +626,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "EnrollmentAdmin";
             this.Text = "EnrollmentAdmin";
+            this.Load += new System.EventHandler(this.EnrollmentAdmin_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

@@ -52,6 +52,12 @@
     <Compile Include="CreateNewPasswordForm.Designer.cs">
       <DependentUpon>CreateNewPasswordForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="EnrollmentAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnrollmentAdmin.Designer.cs">
+      <DependentUpon>EnrollmentAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="EnrollmentDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +80,9 @@
     </Compile>
     <EmbeddedResource Include="CreateNewPasswordForm.resx">
       <DependentUpon>CreateNewPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnrollmentAdmin.resx">
+      <DependentUpon>EnrollmentAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EnrollmentDashboard.resx">
       <DependentUpon>EnrollmentDashboard.cs</DependentUpon>
@@ -115,6 +124,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\image %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_1426.JPEG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_1427.JPEG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_1435.JPEG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_1431.JPEG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_1429.JPEG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_1432.JPEG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_1433.JPEG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_1434.JPEG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_1438.JPEG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bell-icon-decoration-icon-ring-icon-logo-symbol-png-clipart-removebg-preview.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

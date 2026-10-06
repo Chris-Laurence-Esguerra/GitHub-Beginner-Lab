@@ -52,6 +52,12 @@
     <Compile Include="CreateNewPasswordForm.Designer.cs">
       <DependentUpon>CreateNewPasswordForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="EnrollmentAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnrollmentAdmin.Designer.cs">
+      <DependentUpon>EnrollmentAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="EnrollmentDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +80,9 @@
     </Compile>
     <EmbeddedResource Include="CreateNewPasswordForm.resx">
       <DependentUpon>CreateNewPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnrollmentAdmin.resx">
+      <DependentUpon>EnrollmentAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EnrollmentDashboard.resx">
       <DependentUpon>EnrollmentDashboard.cs</DependentUpon>

@@ -149,5 +149,11 @@
   <ItemGroup>
     <None Include="Resources\IMG_1434.JPEG" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_1438.JPEG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bell-icon-decoration-icon-ring-icon-logo-symbol-png-clipart-removebg-preview.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

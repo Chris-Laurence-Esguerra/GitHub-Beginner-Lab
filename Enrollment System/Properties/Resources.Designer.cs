@@ -63,6 +63,16 @@ namespace Enrollment_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bell_icon_decoration_icon_ring_icon_logo_symbol_png_clipart_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("bell-icon-decoration-icon-ring-icon-logo-symbol-png-clipart-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap image__1_ {
             get {
                 object obj = ResourceManager.GetObject("image (1)", resourceCulture);
@@ -166,6 +176,16 @@ namespace Enrollment_System.Properties {
         internal static System.Drawing.Bitmap IMG_1435 {
             get {
                 object obj = ResourceManager.GetObject("IMG_1435", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap IMG_1438 {
+            get {
+                object obj = ResourceManager.GetObject("IMG_1438", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -117,4 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Date         Method     Reference           Amount      Status
+__________________________________________________________
+Sept. 2      GCash      4410 8821 03      ₱3,000         Pending verfication
+__________________________________________________________
+Sep. 1       GCash      OR 000128          ₱5,000         Paid
+__________________________________________________________
+Aug. 15      Cash       OR 000087           ₱10,000       Paid
+</value>
+  </data>
 </root>

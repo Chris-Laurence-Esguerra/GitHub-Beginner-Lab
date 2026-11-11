@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CashierReceipt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CashierReceipt.Designer.cs">
+      <DependentUpon>CashierReceipt.cs</DependentUpon>
+    </Compile>
     <Compile Include="CreateNewPasswordForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +78,9 @@
     <Compile Include="StudentEnrollmentDashboard.Designer.cs">
       <DependentUpon>StudentEnrollmentDashboard.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CashierReceipt.resx">
+      <DependentUpon>CashierReceipt.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CreateNewPasswordForm.resx">
       <DependentUpon>CreateNewPasswordForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -115,6 +124,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\image %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\393728147_330494509636225_9165636989522022839_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\829601940_1410165073898933_9080022591944802522_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\825311337_2298414763896214_8733733785692111953_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\829331371_1419853657005962_1974409638167402844_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\828871308_2078425416174263_7599799655002276055_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\831491485_1577581393538333_1658025114998699952_n %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\833409014_1132062412489565_1119356328201278704_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\833092982_1112324967876277_5807337805168979304_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\834462743_2186536292745796_6266164766151058421_n.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

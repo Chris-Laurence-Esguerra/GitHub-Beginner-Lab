@@ -9,6 +9,14 @@ namespace Enrollment_System
         private string connectionString = @"Data Source=ITTCHAN-PC\SQLEXPRESS;Initial Catalog=EnrollmentDB;Integrated Security=True"; public LogInForm()
         {
             InitializeComponent();
+            VisibleChanged += (s, e) =>
+            {
+                if (Visible)
+                {
+                    txtbPassword.Clear();
+                    txtbUsername.Focus();
+                }
+            };
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
@@ -24,6 +32,8 @@ namespace Enrollment_System
 
             try
             {
+                string role = null;
+
                 using (SqlConnection conn = new SqlConnection(connectionString))
                 {
                     conn.Open();
@@ -35,45 +45,53 @@ namespace Enrollment_System
                         cmd.Parameters.AddWithValue("@password", password);
 
                         object result = cmd.ExecuteScalar();
-
-                        if (result != null)
-                        {
-                            string role = result.ToString();
-
-                            // 1. Check kung Admin / Cashier
-                            if (role == "Admin")
-                            {
-                                MessageBox.Show("Login Successful! Welcome, Cashier.", "Access Granted", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                                CashierEnrollmentDashboard dashboardForm = new CashierEnrollmentDashboard(username);
-                                dashboardForm.Show();
-                                this.Hide();
-                            }
-                            // 2. Check kung Student
-                            else if (role == "Student")
-                            {
-                                MessageBox.Show("Login Successful! Welcome, Student.", "Access Granted", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                                StudentEnrollmentDashboard studentDashboard = new StudentEnrollmentDashboard(username);
-                                studentDashboard.Show();
-                                this.Hide();
-                            }
-                        }
-                        else
-                        {
-                            MessageBox.Show("Invalid username or password. Please try again.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                            txtbPassword.Clear();
-                            txtbUsername.Focus();
-                        }
+                        if (result != null) role = result.ToString().Trim();
                     }
                 }
+
+                if (role == null)
+                {
+                    MessageBox.Show("Invalid username or password. Please try again.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    txtbPassword.Clear();
+                    txtbUsername.Focus();
+                    return;
+                }
+
+                Form next = null;
+
+                switch (role.ToLower())
+                {
+                    case "admin":
+                    case "registrar":
+                        // Walang hiwalay na AdminDashboard, kaya ang Registrar dashboard ang bubuksan para sa Admin at Registrar
+                        MessageBox.Show("Login Successful! Welcome, " + role + ".", "Access Granted", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        next = new RegistrarEnrollmentDashboard(username);
+                        break;
+
+                    case "cashier":
+                        MessageBox.Show("Login Successful! Welcome, Cashier.", "Access Granted", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        next = new CashierEnrollmentDashboard(username);
+                        break;
+
+                    case "student":
+                        MessageBox.Show("Login Successful! Welcome, Student.", "Access Granted", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        next = new StudentEnrollmentDashboard(username);
+                        break;
+
+                    default:
+                        MessageBox.Show("Walang form para sa role na: " + role, "Login", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        return;
+                }
+
+                next.Show();
+                this.Hide();      // naka-hide lang ang login form (ito ang main form); ibinabalik ito ng Log out
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Database Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-        
+    
 
         private void btnCancel_Click_1(object sender, EventArgs e)
         {

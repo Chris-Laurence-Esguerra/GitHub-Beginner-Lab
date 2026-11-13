@@ -46,11 +46,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CashierReceipt.cs">
+    <Compile Include="CahierRecordPayment.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CashierReceipt.Designer.cs">
-      <DependentUpon>CashierReceipt.cs</DependentUpon>
+    <Compile Include="CahierRecordPayment.Designer.cs">
+      <DependentUpon>CahierRecordPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CashierData.cs" />
+    <Compile Include="CashierEnrollmentDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CashierEnrollmentDashboard.Designer.cs">
+      <DependentUpon>CashierEnrollmentDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CashierNav.cs" />
+    <Compile Include="CashierStudentManagemen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CashierStudentManagemen.Designer.cs">
+      <DependentUpon>CashierStudentManagemen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CashierToVerify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CashierToVerify.Designer.cs">
+      <DependentUpon>CashierToVerify.cs</DependentUpon>
     </Compile>
     <Compile Include="CreateNewPasswordForm.cs">
       <SubType>Form</SubType>
@@ -106,8 +126,17 @@
     <Compile Include="StudentEnrollmentDashboard.Designer.cs">
       <DependentUpon>StudentEnrollmentDashboard.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="CashierReceipt.resx">
-      <DependentUpon>CashierReceipt.cs</DependentUpon>
+    <EmbeddedResource Include="CahierRecordPayment.resx">
+      <DependentUpon>CahierRecordPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashierEnrollmentDashboard.resx">
+      <DependentUpon>CashierEnrollmentDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashierStudentManagemen.resx">
+      <DependentUpon>CashierStudentManagemen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashierToVerify.resx">
+      <DependentUpon>CashierToVerify.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CreateNewPasswordForm.resx">
       <DependentUpon>CreateNewPasswordForm.cs</DependentUpon>
@@ -166,31 +195,55 @@
     <None Include="Resources\image %283%29.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\393728147_330494509636225_9165636989522022839_n.jpg" />
+    <None Include="Resources\download %289%29.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\829601940_1410165073898933_9080022591944802522_n.png" />
+    <None Include="Resources\download %2810%29.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\825311337_2298414763896214_8733733785692111953_n.png" />
+    <None Include="Resources\download %2811%29.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\829331371_1419853657005962_1974409638167402844_n.png" />
+    <None Include="Resources\download %2812%29.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\828871308_2078425416174263_7599799655002276055_n.png" />
+    <None Include="Resources\download %2813%29.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\831491485_1577581393538333_1658025114998699952_n %281%29.png" />
+    <None Include="Resources\download %2814%29.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\833409014_1132062412489565_1119356328201278704_n.png" />
+    <None Include="Resources\download %2815%29.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\833092982_1112324967876277_5807337805168979304_n.png" />
+    <None Include="Resources\download %2816%29.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\834462743_2186536292745796_6266164766151058421_n.png" />
+    <None Include="Resources\download %2817%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2818%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2819%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2820%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2821%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2822%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2823%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2824%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %288%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

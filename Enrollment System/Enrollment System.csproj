@@ -46,12 +46,39 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CahierRecordPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CahierRecordPayment.Designer.cs">
+      <DependentUpon>CahierRecordPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CashierData.cs" />
+    <Compile Include="CashierEnrollmentDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CashierEnrollmentDashboard.Designer.cs">
+      <DependentUpon>CashierEnrollmentDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CashierNav.cs" />
+    <Compile Include="CashierStudentManagemen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CashierStudentManagemen.Designer.cs">
+      <DependentUpon>CashierStudentManagemen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CashierToVerify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CashierToVerify.Designer.cs">
+      <DependentUpon>CashierToVerify.cs</DependentUpon>
+    </Compile>
     <Compile Include="CreateNewPasswordForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CreateNewPasswordForm.Designer.cs">
       <DependentUpon>CreateNewPasswordForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="DatabaseConnection.cs" />
     <Compile Include="EnrollmentDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,12 +93,51 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegistrarData.cs" />
+    <Compile Include="RegistrarPayments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrarPayments.Designer.cs">
+      <DependentUpon>RegistrarPayments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarStudentManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrarStudentManagement.Designer.cs">
+      <DependentUpon>RegistrarStudentManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SeedData.cs" />
+    <Compile Include="StudentAssessment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentAssessment.Designer.cs">
+      <DependentUpon>StudentAssessment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentData.cs" />
+    <Compile Include="StudentEnrollment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentEnrollment.Designer.cs">
+      <DependentUpon>StudentEnrollment.cs</DependentUpon>
+    </Compile>
     <Compile Include="StudentEnrollmentDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="StudentEnrollmentDashboard.Designer.cs">
       <DependentUpon>StudentEnrollmentDashboard.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CahierRecordPayment.resx">
+      <DependentUpon>CahierRecordPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashierEnrollmentDashboard.resx">
+      <DependentUpon>CashierEnrollmentDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashierStudentManagemen.resx">
+      <DependentUpon>CashierStudentManagemen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashierToVerify.resx">
+      <DependentUpon>CashierToVerify.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CreateNewPasswordForm.resx">
       <DependentUpon>CreateNewPasswordForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -91,6 +157,18 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="RegistrarPayments.resx">
+      <DependentUpon>RegistrarPayments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrarStudentManagement.resx">
+      <DependentUpon>RegistrarStudentManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentAssessment.resx">
+      <DependentUpon>StudentAssessment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentEnrollment.resx">
+      <DependentUpon>StudentEnrollment.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="StudentEnrollmentDashboard.resx">
       <DependentUpon>StudentEnrollmentDashboard.cs</DependentUpon>
     </EmbeddedResource>
@@ -115,6 +193,57 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\image %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %289%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2810%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2811%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2812%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2813%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2814%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2815%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2816%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2817%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2818%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2819%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2820%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2821%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2822%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2823%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2824%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %288%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
